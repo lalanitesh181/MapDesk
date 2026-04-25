@@ -1,0 +1,36 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# Node / tooling
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build / package outputs
+dist/
+build/
+release/
+private-release/
+out/
+*.exe
+*.msi
+*.zip
+
+# Runtime artifacts
+*.tmp
+*.temp
+*.bak
+*.swp
+tmp_*/
+__pycache__/
+
+# Local env
+.env
+.env.*
